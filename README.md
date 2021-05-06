@@ -1,13 +1,15 @@
-# NodeJS example
+# Jest example
 
-In this example we run NodeJS script written in Una. <br/>
+In this example we run Jest test written in Una. <br/>
 
 ## Install
+
 ```
 npm install
 ```
 
 ## Run
+
 ```
-npm start
+npm test
 ```
