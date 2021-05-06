@@ -1,0 +1,6 @@
+=-> './sum' sum
+
+test
+  'adds 1 + 2 to equal 3'
+  -> ()
+    .toBe (expect (sum 1 2)) 3 

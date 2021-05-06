@@ -1,0 +1,31 @@
+{
+  "name": "example-node",
+  "version": "1.0.0",
+  "description": "Node application example written in Una",
+  "main": "src",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.13.16",
+    "@babel/core": "7.14.0",
+    "@babel/node": "7.13.13",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-una-language": "1.0.1",
+    "jest": "^26.6.3",
+    "una-language": "0.3.1"
+  },
+  "scripts": {
+    "build": "babel src -d build --extensions .una",
+    "start": "babel-node --extensions .una src",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/una-language/example-jest.git"
+  },
+  "author": "Sergey Shpadyrev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/una-language/example-jest/issues"
+  },
+  "homepage": "https://github.com/una-language/example-jest#readme"
+}
