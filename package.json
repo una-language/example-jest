@@ -1,7 +1,7 @@
 {
-  "name": "example-node",
+  "name": "example-jest",
   "version": "1.0.0",
-  "description": "Node application example written in Una",
+  "description": "Jest tests example written in Una",
   "main": "src",
   "dependencies": {},
   "devDependencies": {
